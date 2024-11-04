@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DICTIONARY APP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-[100vh] bg-[#011E41]">
+    <div
+      class="flex flex-col justify-center items-center pt-[30px] px-[15px] rounded-xl"
+    >
+      <h1
+        class="text-white text-3xl font-semibold text-center pb-[15px] mt-[50px]"
+      >
+        YAHAYA GODIWA <span class="text-[#D31111]">|</span> ENGLISH DICTIONARY
+      </h1>
+      <div class="flex justify-center bg-white rounded-xl w-[100%] md:w-[60%]">
+        <input
+          type="search"
+          placeholder="Enter a word"
+          class="field rounded-xl w-[100%] md:w-[60vw] py-[10px] px-[24px] mb-[5px] outline-none"
+        />
+        <span
+          ><img
+            src="images/download.jpeg"
+            class="h-[40px] pt-[10px] searchbtn cursor-pointer"
+        /></span>
+      </div>
+      <div class="result text-[#fff] pt-[20px]">
+        <div class="placehold flex flex-col hidden justify-center text-center">
+          <h2 class="text-2xl font-semibold pb-[10px]">
+            The Comprehensive English Dictionary
+          </h2>
+          <p class="text-lg w-[100%] md:w-[70vw]">
+            An unparalleled resource for scholars, writers, and curious minds
+            alike, offering insights into the meanings, origins, and usage of
+            over 500,000 words and phrases from across the English-speaking
+            world. Explore a vast, meticulously curated collection that brings
+            the depth and richness of the English language to your fingertips.
+          </p>
+
+          <div class="mx-auto pt-[10px]">
+            <img
+              src="images/diction-removebg-preview.png"
+              class="h-[200px] w-[40vw]"
+            />
+          </div>
+        </div>
+
+        <div
+          class="resultss bg-sky-900 w-[100%] md:w-[63vw] border-l-[5px] border-[#D31111] px-[20px] py-[15px]"
+        >
+          <div class="flex gap-[10px] items-center">
+            <!-- <span class="partspeach"> Noun | </span> -->
+            <span class="text font-semibold py-[5px]"></span>
+            <span>-</span>
+            <span class="phonentic"> </span>
+          </div>
+          <h2 class="text-2xl font-semibold text-center loadingt hidden">LOADING....</h2>
+          <h3 class="font-semibold text-lg py-[5px]">
+            ➡
+            <span class="font-normal mean1 italic"></span>
+          </h3>
+          <h3 class="font-semibold text-lg py-[5px]">
+            ➡
+            <span class="font-normal mean2 italic"></span>
+          </h3>
+          <h3 class="font-semibold text-lg py-[5px]">
+            ➡
+            <span class="font-normal mean3 italic"></span>
+          </h3>
+          <!-- synonyms  -->
+
+          <div class="pt-[15px]">
+            <h3 class="font-semibold text-lg">
+              Synonyms: <span class="font-normal syn italic"></span>
+              <span class="font-normal"></span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
